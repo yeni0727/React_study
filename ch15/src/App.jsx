@@ -1,35 +1,28 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import MUI1 from './MUI1'
+import MUI2 from './MUI2'
+import MUI2_2 from './MUI2_2'
+import MUI2_3 from './MUI2_3'
+import MUI2_4 from './MUI2_4'
+import MUI3 from './MUI3'
+import MUI4 from './MUI4'
+import MUI5 from './MUI5'
+import MUI6 from './MUI6'
+import MUI7 from './MUI7'
+import MUI from './MUI'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+   //  return <MUI1 />
+   //  return <MUI2 />
+   //  return <MUI2_2 />
+   //  return <MUI2_3 />
+   //  return <MUI2_4 />
+   //  return <MUI3 />
+   //  return <MUI4 />
+   //  return <MUI5 />
+   //  return <MUI6 />
+   //  return <MUI7 />
+   return <MUI />
 }
 
 export default App
